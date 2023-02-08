@@ -1,0 +1,132 @@
+/*Author:Tessy J Baiju*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.banner {
+    background-image: url("../images/academy-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.logo {
+    margin-top: 10%;
+}
+/* .imglogo {
+    padding-left: 190px;
+} */
+.para {
+    margin-right: 18%;
+}
+.presentation {
+    width: 100%;
+    margin-left: 130px;
+    margin-top: 40px;
+}
+.points {
+    width: 100%;
+    font-weight: 100;
+    background-color: #1e2531;
+    color: rgb(95, 210, 210);
+    margin-top: 140px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-left: -140px;
+}
+.points h2::before {
+    content: "{";
+    color: purple;
+}
+.points h2::after {
+    content: "}";
+    color: purple;
+}
+.module {
+    background-image: url("../images/modulebg.jpg");
+    padding: 200px;
+    height: 100vh;
+}
+
+.mod {
+    height: 10%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    background-color: rgba(31, 28, 28, 0.7);
+}
+.content2 {
+    width: 100%;
+    font-weight: 100;
+    text-align: center;
+    padding: 55px;
+    color: #625d5d;
+    font-size: 20px;
+}
+.sample {
+    width: 100%;
+}
+.para1 {
+    text-align: center;
+    background-image: url("../images/testsbg.jpg");
+    background-size: cover;
+    height: 500px;
+}
+.para2 {
+    text-align: center;
+    background-image: url("../images/intrvwbg.jpg");
+    background-size: cover;
+    height: 500px;
+}
+.p1,
+.p2 {
+    color: #ffffff;
+    width: 100%;
+    height: 500px;
+    padding: 25%;
+}
+.paradiv {
+    background-color: rgba(6, 8, 11, 0.7);
+    padding: 10px;
+    margin: 20px;
+    height: 450px;
+}
+
+h3 {
+    font-size: 30px;
+}
+a {
+    text-decoration: none;
+    color: #eb510a;
+    padding: 0;
+}
+
+@media screen and (max-width: 576px) {
+    .banner {
+        background-image: none;
+        background-color: #5a616e;
+        background-size: cover;
+    }
+    .presentation {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .points {
+        margin-left: 0px;
+    }
+    .module {
+        background-image: url("../images/modulebg.jpg");
+        padding: 0px;
+        margin: 0;
+    }
+    .mod {
+        padding: 5px;
+        width: 80px;
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+}
